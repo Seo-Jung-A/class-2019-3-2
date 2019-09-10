@@ -339,11 +339,30 @@
 									"model": {
 										"$ref": "AAAAAAFtGZ/86/yoWss="
 									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtGcmfg6ON8CE=",
+											"_parent": {
+												"$ref": "AAAAAAFtGZ/86/yxN54="
+											},
+											"model": {
+												"$ref": "AAAAAAFtGcmfV6OKcvE="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 101,
+											"width": 163.642578125,
+											"height": 13,
+											"text": "+Attack(ref Charactor)",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 312,
 									"top": 96,
 									"width": 173.642578125,
-									"height": 10
+									"height": 23
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -832,6 +851,27 @@
 							},
 							"name": "Health",
 							"type": ""
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtGcmfV6OKcvE=",
+							"_parent": {
+								"$ref": "AAAAAAFtGZ/86/yoWss="
+							},
+							"name": "Attack",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtGcnG/qOpj/E=",
+									"_parent": {
+										"$ref": "AAAAAAFtGcmfV6OKcvE="
+									},
+									"name": "ref Charactor",
+									"type": ""
+								}
+							]
 						}
 					]
 				}
